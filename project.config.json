@@ -1,13 +1,16 @@
 {
-	"miniprogramRoot": "miniprogram/",
-	"cloudfunctionRoot": "cloudfunctions/",
+	"description": "项目配置文件。",
 	"setting": {
 		"urlCheck": true,
-		"es6": true,
+		"es6": false,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"autoAudits": false
 	},
+	"miniprogramRoot": "mpvue/dist/wx/",
+	"compileType": "miniprogram",
+	"cloudfunctionRoot": "cloudfunctions/",
 	"appid": "wx28b74e232480bdbf",
 	"projectname": "suggestionBox",
 	"libVersion": "2.2.5",
