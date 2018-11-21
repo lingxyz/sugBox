@@ -30,14 +30,11 @@ export default {
 }
 </script>
 
-<style>
-.log-list {
-	display: flex;
-	flex-direction: column;
-	padding: 40rpx;
-}
-
-.log-item {
-	margin: 10rpx;
-}
+<style lang="stylus" scoped>
+.log-list
+	display flex
+	flex-direction column
+	padding 40rpx
+.log-item
+	margin 10rpx
 </style>

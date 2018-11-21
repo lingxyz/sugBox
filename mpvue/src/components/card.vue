@@ -12,8 +12,7 @@ export default {
 }
 </script>
 
-<style>
-.card {
-	padding: 10px;
-}
+<style lang="stylus" scoped>
+.card
+	padding: 10px
 </style>

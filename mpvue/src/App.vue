@@ -20,11 +20,10 @@ export default {
 }
 </script>
 
-<style>
-.container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	box-sizing: border-box;
-}
+<style lang="stylus">
+.container
+	display: flex
+	flex-direction: column
+	align-items: center
+	box-sizing: border-box
 </style>
